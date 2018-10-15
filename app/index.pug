@@ -1,0 +1,236 @@
+extends layouts/default
+block content
+    section.content-top
+        .content-top__inner
+            .content-top__slider
+                .slider-top.owl-carousel.owl-theme
+                    .slider-top__item
+                        .slider-top__item__img
+                            img(src="images/slider-img.jpg")
+                        .slider-top__title Заголовок Баннера
+                        .slider-top__text Дополнительная информация Lorem ipsum dolor sit amet,
+                            | consectetur adipiscing elit, sed do eiusmod tempor
+                            | incididunt ut labore et dolore magna aliqua.
+                            | cillum dolore eu fugiat nulla pariatur.
+                    .slider-top__item
+                        .slider-top__item__img
+                            img(src="images/slider-img.jpg")
+                        .slider-top__title Заголовок Баннера
+                        .slider-top__text Дополнительная информация Lorem ipsum dolor sit amet,
+                            | consectetur adipiscing elit, sed do eiusmod tempor
+                            | incididunt ut labore et dolore magna aliqua.
+                            | cillum dolore eu fugiat nulla pariatur.
+                    .slider-top__item
+                        .slider-top__item__img
+                            img(src="images/slider-img.jpg")
+                        .slider-top__title Заголовок Баннера
+                        .slider-top__text Дополнительная информация Lorem ipsum dolor sit amet,
+                            | consectetur adipiscing elit, sed do eiusmod tempor
+                            | incididunt ut labore et dolore magna aliqua.
+                            | cillum dolore eu fugiat nulla pariatur.
+            .content-top__menu
+                a(href='#').content-top__menu__block
+                    .content-top__menu__block__img
+                        img(src="images/block-1.png")
+                    .content-top__menu__block__ic
+                        img(src='images/ic-1.png')
+                    .content-top__menu__block__info
+                        .content-top__menu__block__title Спецодежда
+                        .content-top__menu__block__text Качественная спецодежда. Модели для всех отраслей производства
+                a(href='#').content-top__menu__block
+                    .content-top__menu__block__img
+                        img(src="images/block-2.png")
+                    .content-top__menu__block__ic
+                        img(src='images/ic-2.png')
+                    .content-top__menu__block__info
+                        .content-top__menu__block__title Спецодежда
+                        .content-top__menu__block__text Качественная спецодежда. Модели для всех отраслей производства
+                a(href='#').content-top__menu__block
+                    .content-top__menu__block__img
+                        img(src="images/block-3.png")
+                    .content-top__menu__block__ic
+                        img(src='images/ic-3.png')
+                    .content-top__menu__block__info
+                        .content-top__menu__block__title Спецодежда
+                        .content-top__menu__block__text Качественная спецодежда. Модели для всех отраслей производства
+    section.form
+        .container
+            .row
+                .form__inner
+                    h2  Оставьте заявку
+                    form
+                        input(type='text', placeholder='Имя').form__input
+                        input(type='text', placeholder='Номер телефона').form__input
+                        select.form__select
+                            option Тип продукции
+                            option Тип продукции1
+                            option Тип продукции2
+                            option Тип продукции3
+                        input(type='text', placeholder='Размер').form__input
+                        textarea(placeholder='Сообщение').form__textarea
+                        .form__submit
+                            .butt.butt__arrow
+                                input(type='submit' value='Отправить')
+    section.why-we
+        .container
+            .row
+                h2 Почему Мы?
+                .why-we__inner
+                    .why-we__block
+                        .why-we__block__img
+                            img(src="../images/checked.png")
+                        .why-we__block__title Широкий
+                        .why-we__block__text выбор продукции
+                    .why-we__block
+                        .why-we__block__img
+                            img(src="../images/checked.png")
+                        .why-we__block__title Качественный
+                        .why-we__block__text сервис
+                    .why-we__block
+                        .why-we__block__img
+                            img(src="../images/checked.png")
+                        .why-we__block__title Индивидуальный
+                        .why-we__block__text подход к каждому клиенту
+                    .why-we__block
+                        .why-we__block__img
+                            img(src="../images/checked.png")
+                        .why-we__block__title Оперативная
+                        .why-we__block__text поставка спецодежды, от 7 до 14 дней
+    section.p-product
+        h2 популярные товары
+        .p-product__inner
+            a(href='#').p-product__item
+                .p-product__block
+                    .p-product__block__img
+                        img(src='images/product-1.png')
+                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                    .p-product__block__price
+                        span 480.00 lei
+                        .p-product__block__link
+                    ul.p-product__block__info
+                        li Куртка
+                        li Полукомбинезон
+                        li АКБ: Название
+                        li Ткань: «Грета»
+                        li Состав: 52% хлопок, 48% полиэфир,
+            a(href='#').p-product__item
+                .p-product__block
+                    .p-product__block__img
+                        img(src='images/product-2.png')
+                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                    .p-product__block__price
+                        span 480.00 lei
+                        span.old 580.00 lei
+                        .p-product__block__link
+                    ul.p-product__block__info
+                        li Куртка
+                        li Полукомбинезон
+                        li АКБ: Название
+                        li Ткань: «Грета»
+                        li Состав: 52% хлопок, 48% полиэфир,
+            a(href='#').p-product__item
+                .p-product__block
+                    .p-product__block__img
+                        img(src='images/product-1.png')
+                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                    .p-product__block__price
+                        span 480.00 lei
+                        span.old 580.00 lei
+                        .p-product__block__link
+                    ul.p-product__block__info
+                        li Куртка
+                        li Полукомбинезон
+                        li АКБ: Название
+                        li Ткань: «Грета»
+                        li Состав: 52% хлопок, 48% полиэфир,
+            a(href='#').p-product__item
+                .p-product__block
+                    .p-product__block__img
+                        img(src='images/product-2.png')
+                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                    .p-product__block__price
+                        span 480.00 lei
+                        span.old 580.00 lei
+                        .p-product__block__link
+                    ul.p-product__block__info
+                        li Куртка
+                        li Полукомбинезон
+                        li АКБ: Название
+                        li Ткань: «Грета»
+                        li Состав: 52% хлопок, 48% полиэфир,
+        .p-product__butt
+            .butt.butt__arrow
+                a(href='#') В каталог
+    section.our-work
+        h2 Наши работы
+        .our-work-slider.owl-carousel.owl-theme
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-1.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-2.jpg")
+            .our-work-slider__item
+                a(href='#')
+                  img(src="images/sl-3.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-4.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-1.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-2.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-3.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-4.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-1.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-2.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-3.jpg")
+            .our-work-slider__item
+                a(href='#')
+                    img(src="images/sl-4.jpg")
+    section.reviews
+        h2 отзывы
+        .reviews__inner
+            .reviews__item
+                .reviews__block
+                    .reviews__block__img
+                        img(src='../images/foto.jpg')
+                    .reviews__block__name Игорь Иванов, Кишинев
+                    .reviews__block__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    a(href='#').reviews__block__link Весь отзыв
+            .reviews__item
+                .reviews__block
+                    .reviews__block__img
+                        img(src='../images/foto.jpg')
+                    .reviews__block__name Игорь Иванов, Кишинев
+                    .reviews__block__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    a(href='#').reviews__block__link Весь отзыв
+            .reviews__item
+                .reviews__block
+                    .reviews__block__img
+                        img(src='../images/foto.jpg')
+                    .reviews__block__name Игорь Иванов, Кишинев
+                    .reviews__block__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    a(href='#').reviews__block__link Весь отзыв
+            .reviews__item
+                .reviews__block
+                    .reviews__block__img
+                        img(src='../images/foto.jpg')
+                    .reviews__block__name Игорь Иванов, Кишинев
+                    .reviews__block__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    a(href='#').reviews__block__link Весь отзыв
+        .reviews__butt
+            .butt.butt__arrow
+               a(href='#') Загрузить еще

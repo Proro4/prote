@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1fb2ce58-cd15-40e8-b4df-8816636b3715" name="protego.nwdev.net" url="http://protego.nwdev.net">
+        <fileTransfer host="protego.nwdev.net" port="2134">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2134" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
