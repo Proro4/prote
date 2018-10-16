@@ -1,0 +1,210 @@
+extends layouts/default
+block content
+    section.catalog
+        .container-full
+            .container-full__row
+                ul.breadcrumbs
+                    li
+                        a(href='#') Главная
+                    li
+                        a(href='#') Товары
+                    li
+                        p Название раздела или подраздела
+                .catalog__inner
+                    .catalog__menu
+                        h3 Товары
+                        .catalog__menu__block
+                            .catalog__menu__block__title спецодежда
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                        .catalog__menu__block
+                            .catalog__menu__block__title Защитная обувь
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                        .catalog__menu__block
+                            .catalog__menu__block__title Индивидуальная защита
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                    .catalog__list
+                        h1 Название раздела или подраздела
+                        .catalog__list__filtr
+                            ul
+                                li
+                                    p Сортировать по:
+                                li
+                                    a(href='#').active возрастанию цены
+                                li
+                                    a(href='#') убыванию цены
+                                li
+                                    a(href="#") наименованию
+                            .catalog__list__filtr__col
+                                p Показывать
+                                .catalog__list__filtr__col__block
+                                    span 15
+                                    .catalog__list__filtr__col__numb
+                                        a(href='#').catalog__list__filtr__col__top
+                                        a(href='#').catalog__list__filtr__col__bottom
+                        .catalog__list__product
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-1-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-2-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-1-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-1-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-2-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            a(href='#').p-product__item
+                                .p-product__block
+                                    .p-product__block__img
+                                        img(src='images/product-1-b.jpg')
+                                    .p-product__block__title Костюм ГРЕТА  цвет черный
+                                    .p-product__block__price
+                                        span 480.00 lei
+                                        .p-product__block__link
+                                    ul.p-product__block__info
+                                        li Куртка
+                                        li Полукомбинезон
+                                        li АКБ: Название
+                                        li Ткань: «Грета»
+                                        li Состав: 52% хлопок, 48% полиэфир,
+                            .pagination
+                                ul
+                                    li
+                                        a.left
+                                    li
+                                        a(href='#').active 1
+                                    li
+                                        a(href='#') 2
+                                    li
+                                        a(href='#') 3
+                                    li
+                                        a(href='#') 4
+                                    li
+                                        p ...
+                                    li
+                                        a(href='#') 48
+                                    li
+                                        a.right
+
+
+
+

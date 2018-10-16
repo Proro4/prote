@@ -1,0 +1,142 @@
+extends layouts/default
+block content
+    section.product
+        .container-full
+            .container-full__row
+                ul.breadcrumbs
+                    li
+                        a(href='#') Главная
+                    li
+                        a(href='#') Товары
+                    li
+                        p Название раздела или подраздела
+                .product__inner
+                    .catalog__menu
+                        h3 Товары
+                        .catalog__menu__block
+                            .catalog__menu__block__title спецодежда
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                        .catalog__menu__block
+                            .catalog__menu__block__title Защитная обувь
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                        .catalog__menu__block
+                            .catalog__menu__block__title Индивидуальная защита
+                            ul.catalog__menu__block__list
+                                li
+                                    p Летняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Брюки рабочие
+                                        li
+                                            a(href="#") Полукомбинезоны рабочие
+                                li
+                                    p Зимняя спецодежда
+                                    ul
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                                        li
+                                            a(href="#") Костюмы рабочие
+                                        li
+                                            a(href="#") Куртки рабочие
+                    .product__list
+                        h1 Название товара
+                        .product__list__block
+                            .product__list__block__img
+                                img(src='images/product-2-big.png')
+                                .product-slider.owl-theme.owl-carousel
+                                    .item
+                            .product__list__block__content
+                                .product__list__block__content__price
+                                    span
+                                        p От 1 штуки
+                                        .new 430.00 lei
+                                    span
+                                        p
+                                        .old 580.00 lei
+                                    .product__list__block__content__price__action
+                                        p От 2 штук
+                                        .action 410.00 lei
+                                .product__list__block__content__info
+                                    ul
+                                        li
+                                            p Куртка
+                                        li
+                                            p Полукомбинезон
+                                        li
+                                            p АКБ:
+                                                b Название
+                                        li
+                                            p Ткань:
+                                                b «Грета»
+                                        li
+                                            p Состав:
+                                                b 52% хлопок, 48% полиэфир,
+                                ul.product__list__block__content__change
+                                    li
+                                        span Размер:
+                                        select
+                                            option Выберите размер
+                                            option XL
+                                            option XXl
+                                            option XXXl
+                                    li
+                                        a(href="#").link Таблица размеров
+                                    li
+                                        span Количество::
+                                        input(type='number' value='1')
+                                    li
+                                        .butt.butt__cash
+                                            a(href='#') ЗВ корзину
+                                    li
+                                        .butt.butt__tel
+                                            a(href='#') Заказать по телефону
+                                    li
+                                        .butt.butt__email
+                                            a(href='#') Заказать по e-mail
+
+
+

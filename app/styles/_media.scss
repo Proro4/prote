@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 1500px){
   .container{
     width: 1500px;
@@ -32,6 +33,22 @@
   }
 }
 @media screen and (max-width: 1260px) {
+  .catalog__menu__block__title{
+    font-size: 18px;
+  }
+  .p-product__block__title{
+    font-size: 24px;
+  }
+  .catalog__list__filtr ul li p{
+    font-size: 12px;
+  }
+  .catalog__list__filtr__col p{
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .catalog__list__filtr__col span{
+    margin-right: 25px;
+  }
   .p-product__block__price span{
     height: 40px;
     padding: 0 5px;
@@ -51,6 +68,51 @@
   }
 }
 @media screen and (max-width: 992px){
+  .catalog__menu__block{
+    height: 50px;
+  }
+  .catalog__menu__block__title{
+    height: 50px;
+    font-size: 16px;
+  }
+  .catalog__list h1{
+    font-size: 26px;
+  }
+  .catalog__list__filtr{
+    height: 100px;
+    flex-wrap: wrap;
+    ul{
+      width: 100%;
+    }
+  }
+  .catalog__list__filtr__col__block{
+    padding: 2px 12px;
+  }
+  .catalog__list__product .p-product__item{
+    width: 50%;
+  }
+  .catalog__menu__block__list li p{
+    height:50px;
+  }
+  .catalog__menu__block__list li a{
+    height: 50px;
+  }
+  .catalog__inner{
+    flex-direction: column;
+  }
+  .catalog__menu{
+    width: 100%;
+  }
+  .catalog__list{
+    width: 100%;
+  }
+  .news-detail__content__img{
+    max-width: 65%;
+  }
+  .mob-menu-but{
+    display: block;
+  }
+  .header__top__tel,
   .header__bottom__menu ul.header__bottom__menu__d{
     display: none;
   }
@@ -156,6 +218,28 @@
   }
 }
 @media screen and (max-width: 770px){
+  .pagination ul li a,
+  .pagination ul li p{
+    height: 30px;
+    width: 30px;
+  }
+  .news-detail__content__img{
+    width: 100%;
+    max-width: 100%;
+  }
+  .news__block__date{
+    padding: 10px 20px;
+  }
+  .news__block__img{
+    margin-bottom: 10px;
+  }
+  .news__block__title{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .news__block__text{
+    width: 100%;
+  }
   .content-top__slider{
     height: 400px;
   }
@@ -230,5 +314,144 @@
   }
   .slider-top__text{
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 520px){
+  .catalog__list__product .p-product__item{
+    width: 100%;
+  }
+  .catalog__list__filtr{
+    height: auto;
+    padding: 15px;
+  }
+  .catalog__list__filtr ul{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    li{
+      &:first-child{
+        width: 100%;
+      }
+    }
+  }
+  .news-detail__content p{
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .news-detail__nav{
+    flex-direction: column;
+    align-items: center;
+    .butt{
+      margin-bottom: 10px;
+    }
+  }
+  .news__block{
+    width: 100%;
+  }
+   .header__bottom__logo{
+     max-width: 50%;
+     img{
+       object-fit: cover;
+       width: 98%;
+      }
+   }
+  .header__bottom__basket{
+    padding: 15px 7px;
+  }
+  .header__bottom__basket__info{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__bottom__basket__price{
+    font-size: 12px;
+  }
+  .header__bottom__basket__kol{
+    font-size: 12px;
+  }
+  .header__bottom__basket__cart{
+    height: 32px;
+    width: 32px;
+    background: url("../images/cart.svg") no-repeat center/30px;
+  }
+  .form__input,
+  .form__select{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form, .why-we{
+    padding: 20px 15px;
+  }
+  .why-we h2{
+    margin-bottom: 50px;
+  }
+  .why-we__block{
+    padding: 0 5px;
+  }
+  .why-we__block__title{
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .why-we__block__text{
+    font-size: 12px;
+  }
+  .why-we__block__img img{
+    max-width: 55px;
+  }
+  .p-product__block {
+    padding: 15px 5px;
+    margin-bottom: 5px;
+  }
+  .our-work{
+    margin-bottom: 50px;
+  }
+  .our-work .our-work-slider{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .our-work .our-work-slider .owl-dots{
+    margin-left: 0;
+    left: inherit;
+  }
+  .reviews h2{
+    margin-bottom: 100px;
+  }
+  .reviews__item{
+    width: 100%;
+    margin-bottom: 75px;
+  }
+  .reviews__item:last-child{
+    margin-bottom: 35px;
+  }
+  .reviews__block{
+    padding: 75px 10px 25px 10px;
+  }
+  .reviews__block__name{
+    margin-bottom: 10px;
+  }
+  .reviews__block__text{
+    line-height: 21px;
+    font-size: 12px;
+    height: 105px;
+  }
+  .footer__inner{
+    align-items: center;
+    &>div,
+    &>ul{
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  .footer__list li a{
+    line-height: 26px;
+  }
+  .slider-top .owl-dots{
+    left: inherit;
+    right: 25px;
+    bottom:15px;
+    width: auto;
+    display: inline-block;
   }
 }

@@ -1,4 +1,29 @@
 header.header
+    .header-mob
+        ul.header-mob__list
+            li
+                a(href='#')  Главная
+            li
+                a(href='#') о компании
+            li
+                a(href='#') Товары
+                ul.two-lvl
+                    li
+                        a(href='#') Спецодежда
+                    li
+                        a(href='#') Защитная обувь
+                    li
+                        a(href='#') Индивидуальная защита
+            li
+                a(href='#') акции
+            li
+                a(href='#') Контакты
+            li
+                a(href='tel:022105510') 022-10-55-10
+            li
+                a(href='tel:069403065') 069-40-30-65
+            li
+                a(href='tel:078246046') 078-24-60-46
     .header__top
         .container
             .row
@@ -32,20 +57,37 @@ header.header
                     .header__bottom__menu
                         ul.header__bottom__menu__d
                             li
-                                a(href='#')  Главная
+                                a(href='index.html')  Главная
                             li
                                 a(href='#') о компании
                             li
-                                a(href='#') Товары
+                                a(href='#').arrow-b Товары
                                 ul.two-lvl
                                     li
-                                        a(href='#') Спецодежда
+                                        a(href='#').arrow-l Спецодежда
+                                        ul.three-lvl
+                                            li
+                                                a(href='#').arrow-l  Летняя спецодежда
+                                                ul.four-lvl
+                                                    li
+                                                        a(href='#') Летняя спецодежда
+                                                    li
+                                                        a(href='#') Зимняя спецодежда
+                                            li
+                                                a(href='#') Зимняя спецодежда
                                     li
-                                        a(href='#') Защитная обувь
+                                        a(href='#').arrow-l Защитная обувь
+                                        ul.three-lvl
+                                            li
+                                                a(href='#') Летняя спецодежда
+                                            li
+                                                a(href='#') Зимняя спецодежда
                                     li
                                         a(href='#') Индивидуальная защита
                             li
                                 a(href='#') акции
+                            li
+                                a(href='news.html') Новости
                             li
                                 a(href='#') Контакты
                     a(href='#').header__bottom__basket
